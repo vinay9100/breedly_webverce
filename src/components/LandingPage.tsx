@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useScroll, useTransform, useInView, useMotionValue, animate } from 'framer-motion';
-import { ChevronRight, Activity, Zap, BarChart3, Binary, Network, Sun, Moon, Dna, Eye, ShieldCheck, Microscope, Beef, Camera, Shield, BarChart2 } from 'lucide-react';
+import { ChevronRight, Sun, Moon, Camera, Shield, BarChart2 } from 'lucide-react';
 import officialLogo from '../assets/logo.png';
 
 interface LandingPageProps {
