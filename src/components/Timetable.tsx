@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, CheckCircle, Circle, Clock, ChevronRight, Info, Plus, RotateCcw } from 'lucide-react';
 import { farmerApi } from '../services/api';
 
 interface Task {
@@ -12,7 +11,6 @@ interface Task {
 
 const Timetable: React.FC = () => {
     const [tasks, setTasks] = useState<Task[]>([]);
-    const [currentDay, setCurrentDay] = useState(1);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
