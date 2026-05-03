@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Info, ChevronRight, Star } from 'lucide-react';
 import {
     BarChart, Bar, XAxis, YAxis, Tooltip,
-    ResponsiveContainer, CartesianGrid, Legend
+    ResponsiveContainer, CartesianGrid
 } from 'recharts';
 
 const BREED_DATA = [
