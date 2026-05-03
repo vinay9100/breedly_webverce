@@ -1,3 +1,4 @@
+import { RotateCcw, CheckCircle, Circle, Clock } from 'lucide-react';
 import React, { useState, useEffect } from 'react';
 import { farmerApi } from '../services/api';
 
