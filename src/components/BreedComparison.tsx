@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Scale, TrendingUp, Droplets, Info, ChevronRight, BarChart3, Star } from 'lucide-react';
+import { Info, ChevronRight, Star } from 'lucide-react';
 import {
     BarChart, Bar, XAxis, YAxis, Tooltip,
     ResponsiveContainer, CartesianGrid, Legend
